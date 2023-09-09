@@ -35,7 +35,7 @@ RUN apt-get update && apt-get -y upgrade \
 
 # Install latest gfortran and fftw
 RUN apt-get install -y libfftw3-dev libfftw3-mpi-dev libopenmpi-dev gfortran
-RUN pip3 install matplotlib pandas jupyterlab
+RUN pip3 install matplotlib pandas jupyterlab scipy
 
 RUN ln -s /usr/bin/python3 /usr/bin/python
 

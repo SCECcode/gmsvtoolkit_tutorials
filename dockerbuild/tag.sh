@@ -1,0 +1,2 @@
+docker tag gmsvtoolkit_tutorial sceccode/gmsvtoolkit_tutorial
+docker push sceccode/gmsvtoolkit_tutorial
